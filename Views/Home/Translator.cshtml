@@ -1,0 +1,29 @@
+﻿@model TextTranslator.ViewModels.FromTextViewModel
+@{
+    ViewBag.Title = "Text Entry";
+}
+<h2>Translate Text to French</h2>
+
+
+@using (Html.BeginForm("TranslateText", "Translator", FormMethod.Post))
+{
+    <div class="form-group">
+        <p>Please enter your text</p>
+        @Html.TextAreaFor(model => model.InputText, new
+        {
+           @class = "form-control",
+           required = "required",
+           @cols = 10,
+           @rows = 7
+        })
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-block btn-primary">Submit</button>
+    </div>
+
+
+}
+
+
+

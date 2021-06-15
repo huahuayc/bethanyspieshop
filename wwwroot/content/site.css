@@ -1,0 +1,19 @@
+﻿body {
+   
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    margin: 150px 0;
+}
+
+
+.btn-primary {
+    background-color: #fcaeae;
+    
+}
+
+.lableResult {
+    font-weight: bold;
+}
+

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0uGLcvX/5B4JI1ztfKSOE1UIctmVz2eP2ucPKqSnSkaTBe5BKOgE8hkySyjtj0MSUyIzkiwrCm15OpAiLR4Tyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\itadmin\\source\\repos\\TextTranslator\\TextTranslator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itadmin\\.nuget\\packages\\awssdk.core\\3.7.0.32\\awssdk.core.3.7.0.32.nupkg.sha512",
+    "C:\\Users\\itadmin\\.nuget\\packages\\awssdk.translate\\3.7.0.30\\awssdk.translate.3.7.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

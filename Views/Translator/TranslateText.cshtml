@@ -1,0 +1,14 @@
+﻿@model TextTranslator.ViewModels.ToTextViewModel
+@{
+    ViewBag.Title = "Text Translation";
+}
+
+<h2>Text Translation</h2>
+
+<div class="result">
+    <label class="lableResult">Original Text</label>
+    <p>@Model.OriginalText</p>
+    <label class="lableResult">Translated Text</label>
+    <p>@Model.TranslateResponse.TranslatedText</p>
+</div>
+
